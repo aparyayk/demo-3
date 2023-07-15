@@ -3,4 +3,6 @@ from django.http import HttpResponse
 
 # Create your views here.
 def display(request):
-    return HttpResponse('<h1>Hello World!!Deployment</h1>')
+    s1='<h1>Hello World!!Deployment</h1><br>'
+    s2='<h2>Hello World!!Deployment</h2>'
+    return HttpResponse(s1+s2)
