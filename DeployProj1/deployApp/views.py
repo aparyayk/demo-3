@@ -5,4 +5,5 @@ from django.http import HttpResponse
 def display(request):
     s1='<h1>Hello World!!Deployment</h1><br>'
     s2='<h2>Hello World!!Deployment</h2>'
-    return HttpResponse(s1+s2)
+    s3='<h2>Hello World!!Deployment</h2>'
+    return HttpResponse(s1+s2+s3)
